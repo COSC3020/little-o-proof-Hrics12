@@ -17,3 +17,9 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+With $f(n)\in o(g(n))$ = 0 meaning that when $f(n)$ grows less then $g(n)$ as $n$ nears infinity.
+$f(n)\in O(g(n))$ says there is a constant $c$ greater then 0 and $n_0$. Meaning $f(n)$ is above a constant multiple $c*g(n)$ for a large value $n$.
+This means $f(n)$ is a constant multiple higher then $g(n)$ for a large $n$.
+You can then say that $n>n_0$ and the $lim_{n\to\infty} \frac{f(n)}{g(n)} = 0 < c$ ....... 
+$n>n_0, \frac{f(n)}{g(n)} < c$
