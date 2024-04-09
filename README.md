@@ -23,3 +23,5 @@ $f(n)\in O(g(n))$ says there is a constant $c$ greater then 0 and $n_0$. Meaning
 This means $f(n)$ is a constant multiple higher then $g(n)$ for a large $n$.
 You can then say that $n>n_0$ and the $lim_{n\to\infty} \frac{f(n)}{g(n)} = 0 < c$ ....... 
 $n>n_0, \frac{f(n)}{g(n)} < c$
+
+The difference between the two is Big'O' means $f(n)$ grows at most the same as $g(n)$ and Small 'o' mean $f(n)$ grows slower then $g(n)$, both for when $n$ grows larger.
