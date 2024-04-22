@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/wM4-KOzy)
 # Little-o
 
 In addition to the big-O, big-$\Omega$, and big-$\Theta$ notation that
@@ -16,3 +17,12 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+Definition of $O$: $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
+
+
+Ok, im starting over:
+
+We know that there is a point $n_0$ beyond that's always $f(n)< c* g(n)$ for any positive constant $c$  in the definition of $f(n)\in o(g(n))$. We can then pick a positive constant $a$ that is less then our
+constant $c$. $a$ is the constant we would use for the definition of $f(n)\in O(g(n))$. We know that $\forall n\ge n_0 : f(n) < cg(n)$. Now we can see $f(n) < ag(n)$ when constant $a$ is used instead of the larger costant $c$ we show the definiton of $O$ is satisfied.
+
