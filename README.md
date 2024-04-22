@@ -18,10 +18,11 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-With $f(n)\in o(g(n))$ = 0 meaning that when $f(n)$ grows less then $g(n)$ as $n$ nears infinity.
-$f(n)\in O(g(n))$ says there is a constant $c$ greater then 0 and $n_0$. Meaning $f(n)$ is above a constant multiple $c*g(n)$ for a large value $n$.
-This means $f(n)$ is a constant multiple higher then $g(n)$ for a large $n$.
-You can then say that $n>n_0$ and the $lim_{n\to\infty} \frac{f(n)}{g(n)} = 0 < c$ ....... 
-$n>n_0, \frac{f(n)}{g(n)} < c$
+Definition of $O$: $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-The difference between the two is Big'O' means $f(n)$ grows at most the same as $g(n)$ and Small 'o' mean $f(n)$ grows slower then $g(n)$, both for when $n$ grows larger.
+
+Ok, im starting over:
+
+We know that there is a point $n_0$ beyond that's always $f(n)< c* g(n)$ for any positive constant $c$  in the definition of $f(n)\in o(g(n))$. We can then pick a positive constant $a$ that is less then our
+constant $c$. $a$ is the constant we would use for the definition of $f(n)\in O(g(n))$. We know that $\forall n\ge n_0 : f(n) < cg(n)$. Now we can see $f(n) < ag(n)$ when constant $a$ is used instead of the larger costant $c$ we show the definiton of $O$ is satisfied.
+
